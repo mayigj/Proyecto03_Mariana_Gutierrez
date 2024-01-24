@@ -1,0 +1,76 @@
+.logo{
+    width: 60px;
+}
+.fijo{
+    width: 50px;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left: 1%;
+    top: 14%;
+    border-radius: 10px;
+}
+.bi{
+    color: whitesmoke;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.imgcarru{
+    width: 100%;
+    height: 650px;
+    object-fit: fill;
+}
+.imgpie{
+    width: 10%;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    margin-bottom: 0%;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.itempie{
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: medium;
+}
+.footer{
+    background-color:  rgb(219, 219, 219);
+    margin-bottom: 0%;
+
+}
+.contdescripcion{
+    margin-top: 1%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+
+}
+.imgdescripcion{
+    width: 100%;
+}
+.titudes{
+    margin-top: 5%;
+    width: 100%;
+    padding-left: 2%;
+}
+.imgcard{
+    height: 200px;
+}
+.imgart{
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+}
+ul{
+    list-style: none;
+
+}
+.itempie a{
+    text-decoration: none;
+    color: black;
+}
