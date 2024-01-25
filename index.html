@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="svg/logo.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="logo" src="svg/logo.svg" alt="">GamerLife</a>
+              <a class="navbar-brand" href="index.html"><img class="logo" src="svg/logo.svg" alt="">GamerLife</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,8 +34,8 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="juegos.html">Juegos</a></li>
-                      <li><a class="dropdown-item" href="#">Noticias</a></li>
-                      <li><a class="dropdown-item" href="#">Personajes</a></li>
+                      <li><a class="dropdown-item" href="juegos.html">Noticias</a></li>
+                      <li><a class="dropdown-item" href="juegos.html">Personajes</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -293,6 +297,7 @@
             </div>
           </section>
 
+         
 
           <h2 class="titudes text-center">Artículos más vendidos</h2>
           <section>
@@ -300,7 +305,7 @@
                 <div class="row">
                     <section class="col-3">
                         <div class="card" style="width: 75%;">
-                        <img src="img/sus.webp" class="imgart card-img-top" alt="...">
+                        <img src="img/sus.jpg" class="imgart card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Among us</h5>
                           <p class="card-text text-start">Un juego para 4 a 15 jugadores en línea o en modo local mediante wifi en el que debéis preparar vuestra nave 
@@ -322,7 +327,7 @@
                     </section>
                     <section class="col-3">
                         <div class="card" style="width: 75%;">
-                            <img src="img/mando.webp" class="imgart card-img-top" alt="...">
+                            <img src="img/mandoventa.jpg" class="imgart card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Mando de PS4</h5>
                               <p class="card-text text-start">Control de precisión: La sensación, la forma y la sensibilidad de los sticks analógicos y los botones 
@@ -333,7 +338,7 @@
                     </section>
                     <section class="col-3">
                         <div class="card" style="width: 75%;">
-                            <img src="img/mandonintendo.webp" class="imgart card-img-top" alt="...">
+                            <img src="img/mandonintendo.jpg" class="imgart card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Mando de Nintendo Switch</h5>
                               <p class="card-text text-start sm-none">El controlador Switch ofrece a los jugadores la flexibilidad que necesitan. 
@@ -348,10 +353,52 @@
             </div>
 
           </section>
-          <section></section>
 
-
-
+          <h2 class="titudes text-center">Preguntas frecuentes</h2>
+          <section class="pb-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                    ¿Qué criterios utilizan para las reseñas de personajes de videojuegos?
+                  </button>
+                </h2>
+                <div id="flush-collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Respuesta: Nuestro equipo editorial utiliza una combinación de factores, como la importancia del personaje en la trama, su popularidad entre los jugadores y su impacto en la cultura del gaming. También consideramos la evolución del personaje a lo largo de diferentes entregas y su relevancia histórica.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                    ¿Cómo puedo comprar un juego en GamerLife?
+                  </button>
+                </h2>
+                <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Respuesta: Puedes comprar juegos en nuestra tienda virtual. Simplemente navega por la selección, elige el juego que te interesa y sigue los pasos para completar tu compra de manera segura.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                    ¿Cuánto tiempo tarda en llegar un juego comprado a mi dirección?
+                  </button>
+                </h2>
+                <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Respuesta: El tiempo de entrega puede variar según la ubicación. Generalmente, procesamos y enviamos los pedidos en un plazo de X días hábiles. Ofrecemos opciones de envío estándar y express para adaptarnos a tus necesidades.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                    ¿Hay alguna membresía premium en GamerLife y cuáles son sus beneficios?
+                  </button>
+                </h2>
+                <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Respuesta: Sí, ofrecemos una membresía premium que incluye beneficios como descuentos exclusivos, acceso anticipado a reseñas y ofertas especiales. Puedes obtener más información sobre la membresía y sus ventajas en nuestra sección dedicada.</div>
+                </div>
+              </div>
+            </div>
+          </section>
 
 
 
@@ -359,14 +406,14 @@
     <footer>
         <section class="footer">        
             <section class="contenedor">
-            <div class="itempie"><img class="imgpie" src="svg/logo.svg" alt="">GamerLife</div>
+            <div class="itempie"><a href="index.html"><img class="imgpie" src="svg/logo.svg" alt="">GamerLife</a></div>
             <div class="itempie">
-                <ul>
+                <ul class="ul">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="consolas.html">Consolas</a></li>
                     <li><a href="juegos.html">Juegos</a></li>
-                    <li><a href="">Noticias</a></li>
-                    <li><a href="">Personajes</a></li>
+                    <li><a href="juegos.html">Noticias</a></li>
+                    <li><a href="juegos.html">Personajes</a></li>
                 </ul>
                 
             </div>

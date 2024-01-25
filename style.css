@@ -1,3 +1,6 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 .logo{
     width: 60px;
 }
@@ -6,8 +9,8 @@
     height: 170px;
     background-color: rgb(0, 0, 0);
     position: fixed;
-    left: 1%;
-    top: 14%;
+    left: 0.3%;
+    top: 16%;
     border-radius: 10px;
 }
 .bi{
@@ -43,7 +46,7 @@
 }
 .contdescripcion{
     margin-top: 1%;
-    padding: 0 2%;
+    padding: 0 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -56,7 +59,7 @@
 .titudes{
     margin-top: 5%;
     width: 100%;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 .imgcard{
     height: 200px;
@@ -66,7 +69,7 @@
     height: 350px;
     object-fit: fill;
 }
-ul{
+.ul{
     list-style: none;
 
 }
@@ -74,3 +77,90 @@ ul{
     text-decoration: none;
     color: black;
 }
+#banner{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(99, 99, 99, 0.7),rgba(0, 0, 0, 0.7)),url(img/consolas.png);
+}
+#bannerj{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(143, 143, 143, 0.7),rgba(0, 0, 0, 0.7)),url(img/game.webp);
+}
+.imgconsolas{
+    width: 20%;
+    padding: 0%;
+    margin-bottom: 5%;
+}
+.imgconsolas:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.cont{
+    width: 100%;
+}
+.noti1{
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.7),rgba(0, 0, 0, 0.7)),url(img/noti1.avif);
+
+}
+.noti2{
+    width: 50%;
+    height: 350px;
+    border-right: 10px solid white ;
+    background-size: cover;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.7),rgba(0, 0, 0, 0.7)),url(img/noti2.webp);
+
+}
+.noti3{
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.7),rgba(0, 0, 0, 0.7)),url(img/noti3.jpg);
+}
+.noti3:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.noti2:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.noti1:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.pj1{
+    width: 50%;
+    height: 350px;
+    border-right: 10px solid white ;
+    background-size: cover;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.7),rgba(0, 0, 0, 0.7)),url(img/noti2.webp);
+
+}
+.imgcard2{
+    height: 300px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .imgconsolas{
+        width: 100%;
+    }
+    .imgconsolas:hover{
+        box-shadow: none;
+    }
+
+}
+@media screen and (max-width:576px) {
+    .imgconsolas{
+        display: none;
+    }
+    .imgconsolas:hover{
+        box-shadow: none;
+    }
+
+}
+
