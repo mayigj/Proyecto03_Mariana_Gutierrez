@@ -1,6 +1,9 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    background-color: rgb(252, 252, 252);
+}
 .logo{
     width: 60px;
 }
@@ -94,14 +97,13 @@
     padding: 0%;
     margin-bottom: 5%;
 }
-.imgconsolas:hover{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
+
 .cont{
     width: 100%;
+    display: none;
 }
 .noti1{
-    width: 50%;
+    width: 58.2%;
     height: 350px;
     background-size: cover;
     background-image: linear-gradient(rgba(54, 54, 54, 0.7),rgba(0, 0, 0, 0.7)),url(img/noti1.avif);
@@ -141,25 +143,87 @@
 .imgcard2{
     height: 300px;
 }
+.cardv{
+    height: 700px;
+}
+
+.consola1{
+    height: 350px;
+    background-size: cover;
+    
+    background-image: url(img/ps5.webp);
+
+}
+.consola2{
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(img/2ps5.jpeg);
+
+}
+.consola3{
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(img/3ps5.webp);
+
+}
+.consola4{
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(img/4ps5.jpg);
+
+}
+.consola5{
+    height: 450px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(img/1xbox.webp);
+
+}
+.consola6{
+    height: 450px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(img/2xbox.webp);
+
+}
+.consola7{
+    height: 450px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(img/3xbox.webp);
+
+}
+.consola8{
+    height: 450px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(img/4xbox.webp);
+
+}
 
 
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .imgconsolas{
         width: 100%;
     }
-    .imgconsolas:hover{
-        box-shadow: none;
+    .cont-consolas{
+        display: none;
+    }
+    .cont{
+        display: contents;
+    }
+    .cardv{
+        height: auto;
     }
 
 }
 @media screen and (max-width:576px) {
     .imgconsolas{
         display: none;
-    }
-    .imgconsolas:hover{
-        box-shadow: none;
     }
 
 }
