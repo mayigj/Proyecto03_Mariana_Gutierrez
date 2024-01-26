@@ -103,14 +103,14 @@ body{
     display: none;
 }
 .noti1{
-    width: 58.2%;
+    /* width: 50%; */
     height: 350px;
     background-size: cover;
     background-image: linear-gradient(rgba(54, 54, 54, 0.7),rgba(0, 0, 0, 0.7)),url(img/noti1.avif);
 
 }
 .noti2{
-    width: 50%;
+    /* width: 50%; */
     height: 350px;
     border-right: 10px solid white ;
     background-size: cover;
@@ -118,7 +118,7 @@ body{
 
 }
 .noti3{
-    width: 50%;
+    /* width: 50%; */
     height: 350px;
     background-size: cover;
     background-image: linear-gradient(rgba(54, 54, 54, 0.7),rgba(0, 0, 0, 0.7)),url(img/noti3.jpg);
